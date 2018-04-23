@@ -4,15 +4,45 @@
   <head>
     <meta chareset= "UTF-8">
     <title>ブログ</title>
+    
+    
     <link rel= "stylesheet" type= "text/css" href= "style.css">
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  
+    
+    <!--スライド作成 -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+  <script>
+    $(document).ready(function(){
+      $('.main01').bxSlider({
+        auto: true,
+        mode: 'fade',
+        speed: 2000,
+        slideWidth: 400,
+      });
+    });
+  </script>
+
+    <!--スライドここまで-->
+    
+    
   </head>
 
+  
+  
   <body>
     
     <header>
       
-      <img src= "4eachblog_logo.jpg" width= "200" max-height= "auto">
+      <img src= "./gazou/4eachblog_logo.jpg" width= "200" max-height= "auto">
       
+    
       <ul>
         <li>トップ</li>
         <li>プロフィール</li>
@@ -33,15 +63,31 @@
       <p>2017年　1月15日</p>
       
     
-      <div class= "main01">
-        
-        
-      <img src= "./gazou/bookstore.jpg" height= "450px" max-widht= "aute">
-      </div>
       
+      
+      
+  <!--スライド写真-->
+      
+    <div class= "main01">
+        
+      <div>
+        <img src= "./gazou/bookstore.jpg">
+      </div>
+        
+      <div>
+        <img src= "./gazou/pic1.jpg">
+      </div>
+        
+      <div>
+      <img src= "./gazou/pic4.jpg">
+        </div>
+    </div>
+      
+      <!--スライド写真ここまで-->
       
       
       <div class= "main02">
+      
       <h3>人気の記事</h3>
       <ul>
         <li>PHPオススメ本</li>
@@ -66,13 +112,16 @@
         <li>MySQL</li>
         <li>JavaScript</li>
       </ul>
+        
       </div>
       
       
       
       
       
-      <p class= "setu2"><br><br><br>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーラーニングシステムです。</p>
+    
+      
+      <p class= "setu2">4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーラーニングシステムです。</p>
       
       <p>記事中身</p>
       

@@ -22,12 +22,20 @@ header ul li{
 
 .main01{
   float: left;
+  margin-right: 10px;
+  width: 400px;
+  height: 400px;
 }
 
 .main02{
+  float: right;
   position: absolute;
-  left: 700px;
+  left: 450px;
+  top: 250px;
+  margin-bottom: 100px;
 }
+
+  
 
 .main02 h3{
   border-bottom: dotted;
@@ -41,8 +49,14 @@ header ul li{
 
 
 .setu2{
-  clear: left;
-  padding-top: 50px;
+  clear: both;
+  padding-top: 200px;
+  margin: 10px;
+
+}
+
+p{
+  margin: 10px;
 }
 
 h1{
