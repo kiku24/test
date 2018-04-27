@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang= "ja">
+  
+  <head>
+    <meta charset= "UTF-8">
+    <title>問い合わせ</title>
+    <link rel= "stylesheet" type= "text/css" href= "style.css">
+  </head>
+  
+  
+  <body>
+    
+    <h1>お問い合わせフォーム</h1>
+    
+    <!--　フォーム内容　▼　-->
+    <div class= "form01">
+      
+    <form method= "post" action= "abc.php">
+      
+      
+      名前<br>
+      <input type= "text" name= "name" size= "30" placeholder= "名前を入力してください。">
+      
+      
+      <br><br>
+      メールアドレス<br>
+      <input type= "text" name= "mail" size= "50" placeholder= "メールアドレスを入力してください。">
+      
+      
+      <!--　年齢　▼　-->
+      <br><br>
+      年齢<br>
+      <select name= "age">
+        <option>選択してください</option>
+        
+        <script>
+          for(var A= 18; A<= 65; A++){
+            document.write("<option>" + A + "歳" + "</option>");
+          }
+        </script>
+        
+      </select>
+    <!--　年齢　▲　-->
+      
+      
+      <br><br>
+      コメント<br>
+      <textarea name= "comments" rows= "5" cols= "50" placeholder= "コメントを入力してください"></textarea>
+      
+      
+      <!--　送信ボタン　▼　-->
+      <br><br>
+      <input type= "submit" value= "送信する">
+      <!--　送信ボタン　▲　-->
+      
+      
+    </form>
+    </div>
+    <!--　フォーム内容 ▲　-->
+    
+  </body>
+</html>

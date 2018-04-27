@@ -1,0 +1,134 @@
+/*　index17.php用　*/
+
+
+/*15*/
+.gazo img{
+  width: 200px;
+  height: auto;
+}
+
+
+
+/*22*/
+header{
+  position: absolute;
+  background-color: black;
+  color: white;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+}
+
+
+
+/*22*/
+header ul li{
+  list-style: none;
+  float: left;
+  padding-right: 35px;
+  line-height: 25px;
+  
+}
+
+
+
+/*39*/
+.title01{
+  clear: left;
+  margin-top: 70px;
+  border-left: 6px solid black;
+  padding-left: 5px;
+  border-bottom: 3px solid black;
+  width: 620px;
+}
+
+
+
+
+
+/*  入力フォーム内容　▼　*/
+.nyuuryoku-form{
+  border-left: 4px solid red;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+
+
+.nyuuryoku-naiyou{
+  background-color: lightgray;
+  padding: 15px;
+  border-style: solid;
+  border: 5px solid;
+  border-color: gray;
+  width: 60%;
+  float: left;
+}
+/*　入力フォーム内容　▲　*/
+
+
+
+
+
+/*　人気の記事、オススメリンク、カテゴリ　▼　*/
+.kizi01{
+  border-bottom: dotted 4px;
+  width: 200px;
+}
+
+
+
+.kizi{
+  width: 30%;
+  float: right;
+  margin-top: -55px;
+  list-style: none
+}
+/*　人気の記事、オススメリンク、カテゴリ　▲　*/
+
+
+
+
+
+/*　タイトル　記事の中身　▼　*/
+.nakami{
+  clear: both;
+  background-color: lightgrey;
+  width: 65%;
+  padding: 10px;
+  border: 5px solid gray;
+}
+
+
+
+.kizi-title{
+  font-weight: bold;
+  border-bottom: 2px dotted;
+  font-size: 20px;
+}
+
+
+
+.sakusya{
+  font-size: 12px;
+}
+
+/*　タイトル　記事の中身　▲　*/
+
+
+
+
+
+footer{
+  
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+
+
+
